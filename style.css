@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-family: sans-serif;
+    text-align: center;
+    border: 1px solid black;
+    width: 70%;
+    margin: 30px auto;
+}
+
+.row {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn-primary {
+    background-color: #5bc0de;
+    padding: 10px 15px 10px 15px;
+    font-size: 18px;
+    margin-left: 5px;
+    border: 1px solid black;
+    font-weight: 500;
+    color: #ffffff;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.btn-primary:hover {
+    
+    box-shadow: inset 0 0 0 20rem rgb(28, 184, 231);
+}
+
+.btn-success {
+    background-color: #5cb85c;
+    padding: 10px 15px 10px 15px;
+    font-size: 18px;
+    margin-left: 5px;
+    border: 1px solid black;
+    font-weight: 500;
+    color: #ffffff;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.btn-success:hover {
+    
+    box-shadow: inset 0 0 0 20rem rgb(57, 218, 35);
+}
+
+.btn-danger {
+    background-color: #d9534f;
+    padding: 10px 15px 10px 15px;
+    font-size: 18px;
+    margin-left: 5px;
+    border: 1px solid black;
+    font-weight: 500;
+    color: #ffffff;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.btn-danger:hover {
+    
+    box-shadow: inset 0 0 0 20rem rgb(248, 51, 51);
+}
+
+.btn-warning {
+    background-color: #f0ad4e;
+    padding: 10px 15px 10px 15px;
+    font-size: 18px;
+    margin-left: 5px;
+    border: 1px solid black;
+    font-weight: 500;
+    color: #ffffff;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.btn-warning:hover {
+    
+    box-shadow: inset 0 0 0 20rem rgb(243, 157, 37);
+}
